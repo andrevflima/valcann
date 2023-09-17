@@ -150,20 +150,8 @@ form label{
 	margin-top: 1vh;
 }
 
-form .selected{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-form .selected input{
-	width: 35vh;
-}
 
 
-form .selected label{
-	width: 15vh;
-}
 
 form button{
 	background-color: rgba(72, 44, 134, 0.7);

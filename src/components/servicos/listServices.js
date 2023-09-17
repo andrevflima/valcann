@@ -102,8 +102,6 @@ class ListServicos extends Component {
               </button>
               <h3>Formulário de Contratação</h3>
               <form ref={form => this.form = form} onSubmit={this.handleContratar}>
-              <div className='selected'>
-              <div className='servicoEscolhido'>
               <label htmlFor="servicoEscolhido">Serviço Escolhido :</label>
               <input
                 type="text"
@@ -112,10 +110,8 @@ class ListServicos extends Component {
                 value={selectedProduct.category + ': ' + selectedProduct.name}
                 disabled
               />
-              </div>
              
 
-              </div>
 
               <label htmlFor="name">Nome Completo :</label>
               <input
