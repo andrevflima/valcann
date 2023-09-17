@@ -10,13 +10,14 @@ const modalStyle = {
   },
   content: {
     width: '80%',
-    maxWidth: '80vh',
+    maxWidth: '60%',
     minHeight:'fit-content',
-    maxHeight: '90%',
+    maxHeight: '80%',
     margin: 'auto',
     padding: '3vh',
     borderRadius: '8px',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
+
   },
 };
 

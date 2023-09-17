@@ -101,6 +101,9 @@
 }
 
 .close{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 	background-color:rgba(72, 44, 134, 1) ;
 	color: #fff;
 	float: right;
