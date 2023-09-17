@@ -43,7 +43,7 @@ export default function Conclusao() {
         <div className="video-wrapper">
         <iframe
           width="840"
-          height="315"
+          height="472"
           src="https://www.youtube.com/embed/XGUsOXOMf-4"
           title="Vídeo do YouTube"
           frameborder="0"
