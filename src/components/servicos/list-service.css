@@ -1,0 +1,181 @@
+.list-services {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-bottom: 8vh;
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha */
+}
+
+.product img {
+    z-index: 0;
+    max-width: 100%;
+	width: 15vh;
+	margin: 2vh;
+}
+
+.product h1,
+.product h2,
+.product h3,
+.product h4,
+.product h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vh;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid rgba(72, 44, 134, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    margin-right: 2vh; /* Espaço entre os produtos */
+    margin-bottom: 2vh; /* Espaço entre os produtos */
+    &:hover {
+        transform: scale(1.05);
+        border: 1px solid rgba(72, 44, 134, 1);
+    }
+}
+
+.list-services .product h3 {
+    color: rgba(72, 44, 134, 1);
+    font-size: 1.1rem;
+    text-align: center;
+	align-self: center;
+}
+
+.list-services .product h4 {
+    color: rgb(62, 62, 62);
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 1.5vh;
+	align-self: center;
+}
+
+.list-services .product h2 {
+    color: rgb(62, 62, 62);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5vh;
+	align-self: center;
+}
+
+.list-services .product .contrate {
+    background-color: rgba(72, 44, 134, 1);
+    border-radius: 20px;
+    margin-top: 2vh;
+    cursor: pointer;
+    padding: 1.5vh 4vh;
+    color: #fff;
+    width: fit-content;
+    text-decoration: none;
+    &:hover {
+        background-color: #fff;
+        border: 1px solid rgba(72, 44, 134, 1);
+        color: rgba(72, 44, 134, 1);
+    }
+}
+
+.list-services .product .saiba {
+    margin-top: 2vh;
+    cursor: pointer;
+    color: rgba(72, 44, 134, 1);
+}
+
+.list-services .product {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        width: 100%;
+        margin-right: 0; /* Remove o espaço entre os produtos */
+        margin-bottom: 2vh; /* Espaço entre os produtos */
+    }
+}
+
+.close{
+	background-color:rgba(72, 44, 134, 1) ;
+	color: #fff;
+	float: right;
+	width: 3vh;
+	height: 3vh;
+	border: 1px solid rgba(72, 44, 134, 1);
+	border-radius: 100%;
+	cursor: pointer;
+	&:hover{
+		color:rgba(72, 44, 134, 1) ;
+		background-color: #fff;
+	}
+}
+
+.modal-title{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	& img{
+		width: 10vh;
+		padding: 2vh;
+	}
+	& h3{
+		align-self: center;
+	}
+}
+
+.product .saiba:hover{
+	font-weight: 700;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+form input, textarea, select{
+	padding: 1vh;
+	margin: 1vh;
+	resize: none;
+}
+
+form label{
+	margin-top: 1vh;
+}
+
+form .selected{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+form .selected input{
+	width: 35vh;
+}
+
+
+form .selected label{
+	width: 15vh;
+}
+
+form button{
+	background-color: rgba(72, 44, 134, 0.7);
+    margin-top: 2vh;
+    padding: 1.5vh 4vh;
+    color: #fff;
+	border: none;
+    text-decoration: none;
+    &:hover {
+        background-color: #fff;
+        border: 1px solid rgba(72, 44, 134, 1);
+        color: rgba(72, 44, 134, 1);
+    }
+}
+
+.modal h3{
+	margin-top: 0;
+}
