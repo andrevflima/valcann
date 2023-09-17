@@ -26,11 +26,13 @@
     }
 }
 
+/* Estilo para o iframe diretamente */
 iframe {
     width: 800px;
     height: 450px;
   }
   
+  /* Estilo para telas menores */
   @media (max-width: 768px) {
     iframe {
       width: auto;
