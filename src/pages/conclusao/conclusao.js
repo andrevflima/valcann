@@ -38,20 +38,17 @@ export default function Conclusao() {
 
      
    </div>
-       <section className='parabens'>
-        <h4> Pazer, Somos a Valcann </h4>
-        <div className="video-wrapper">
+      <section className='parabens'>
+      <h4> Prazer, Somos a Valcann </h4>
+      <div className="video-wrapper">
         <iframe
-          width="840"
-          height="472"
           src="https://www.youtube.com/embed/XGUsOXOMf-4"
-          title="Vídeo do YouTube"
-          frameborder="0"
-          allowfullscreen
+          title="Prazer, Somos a Valcann"
+          frameBorder="0"
+          allowFullScreen
         ></iframe>
-        </div>
-
-       </section>
+      </div>
+    </section>
    <Footer />
     </>
    

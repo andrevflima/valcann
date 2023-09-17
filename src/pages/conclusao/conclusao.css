@@ -15,10 +15,8 @@
     background: linear-gradient(100deg, rgba(72,44,134,1) 0%, rgba(72,44,134,0.7) 100%);
     color: #fff;
     margin: 10vh 0;
-    width: 100%;
     padding: 10px 20px;
     align-items: center;
-    
     & h4{
         font-size: 2rem;
     }
@@ -27,3 +25,15 @@
         margin-bottom: 5vh;
     }
 }
+
+iframe {
+    width: 800px;
+    height: 450px;
+  }
+  
+  @media (max-width: 768px) {
+    iframe {
+      width: auto;
+      height: auto;
+    }
+  }
