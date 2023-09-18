@@ -4,12 +4,12 @@ O projeto foi desenvolvido para apresentar um fluxo de assinatura, onde o client
 
 O objetivo do projeto é criar um FrontEnd responsivo, desenvolvido em reactJS, com todo o fluxo de contratação do serviço ofertado.
 
-O Projeto está disponínel para navegação em : https://valcann.vercel.app/
+O Projeto está disponível para navegação em: https://valcann.vercel.app/
 
 ## Tecnologias usadas no projeto 
 O projeto foi todo desenvolvido em ReactJS.
-- Versão do node : 16.20.0
-- versão do npm : 8.19.4
+- Versão do node: 16.20.0
+- versão do npm: 8.19.4
 
 ## Home page 
 
@@ -52,7 +52,7 @@ Ao clicar em "Contrate já" o cliente poderá preencher suas informações, esco
 ![image](https://github.com/andrevflima/valcann/assets/51246610/fc918d36-1e88-4ea8-bd6b-2721a9ee431b)
 
 ## Conclusão 
-Ao finalizar a contratração, o cliente será direcionado para uma tela de conclusão da contração dos serviços.
+Ao finalizar a contratação, o cliente será direcionado para uma tela de conclusão da contração dos serviços.
 
 
 ![image](https://github.com/andrevflima/valcann/assets/51246610/36f1e0cb-b3aa-437d-87c7-d9bd21c105c2)
