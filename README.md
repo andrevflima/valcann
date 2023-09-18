@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Projeto para apresentação de fluxo de compra de serviços na área de TI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto foi desenvolvido para apresentar um fluxo de assinatura, onde o cliente teria apresentada em sua tela os serviços ofertados pela empresa e poderia contratar os mesmos, sendo apresentado o valor final do serviço no momento do preenchimento do formulário de contratação. 
 
-## Available Scripts
+O objetivo do projeto é criar um FrontEnd responsivo, desenvolvido em reactJS, com todo o fluxo de contratação do serviço ofertado.
 
-In the project directory, you can run:
+O Projeto está disponínel para navegação em : https://valcann.vercel.app/
 
-### `npm start`
+## Tecnologias usadas no projeto 
+O projeto foi todo desenvolvido em ReactJS.
+- Versão do node : 16.20.0
+- versão do npm : 8.19.4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Home page 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/andrevflima/valcann/assets/51246610/df6f442a-c681-45d4-81db-d91bec74d554)
+![image](https://github.com/andrevflima/valcann/assets/51246610/40f8518a-453c-4d60-81e5-694fc3f2ef56)
 
-### `npm test`
+Breve apresentação dos serviços ofertados, acompanhado da identidade visual da empresa. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/andrevflima/valcann/assets/51246610/de69dc47-60e6-44d1-8acc-162df02f2409)
+![image](https://github.com/andrevflima/valcann/assets/51246610/f51d87b4-1650-4268-b452-f3e3df8f7243)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cards com breve descrição do serviço.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/andrevflima/valcann/assets/51246610/8ccab1b4-3b83-4d80-a783-05699c444093)
+![image](https://github.com/andrevflima/valcann/assets/51246610/a3733920-0882-4bc0-bf53-6565fe4562c5)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Footer da página.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Descrição do serviço ofertado
+Ao clicar em "saiba mais" o cliente terá apresentada em sua tela, uma descrição mais detalhada do serviço. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/andrevflima/valcann/assets/51246610/da0163cd-648c-4fc4-9f57-eecf8ef04372)
+![image](https://github.com/andrevflima/valcann/assets/51246610/c51658b9-51ca-445a-aacd-9504abe2d91b)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Formulário de contratação
+Ao clicar em "Contrate já" o cliente poderá preencher suas informações, escolhendo também detalhes do serviço, que afetarão diretamente no seu valor, abaixo dos campos, é apresentado o valor atualizado dos serviços, calculando dinamicamente o valor baseado nas respostas ao formulário apresentado. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![image](https://github.com/andrevflima/valcann/assets/51246610/30737999-90cf-4381-b80b-feb3587fa324)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/andrevflima/valcann/assets/51246610/487d75a6-ec48-4281-abc7-4337a1beb4d6)
 
-### Analyzing the Bundle Size
+![image](https://github.com/andrevflima/valcann/assets/51246610/b16a76f7-3ae1-4058-b302-6ecc5d87f402)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/andrevflima/valcann/assets/51246610/fc918d36-1e88-4ea8-bd6b-2721a9ee431b)
 
-### Making a Progressive Web App
+## Conclusão 
+Ao finalizar a contratração, o cliente será direcionado para uma tela de conclusão da contração dos serviços.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+![image](https://github.com/andrevflima/valcann/assets/51246610/36f1e0cb-b3aa-437d-87c7-d9bd21c105c2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![image](https://github.com/andrevflima/valcann/assets/51246610/bfbae637-0d96-4b1c-a21b-5c951e481b6e)
 
-### Deployment
+![image](https://github.com/andrevflima/valcann/assets/51246610/0657ffa0-d96d-4633-be74-83259d7bdc8a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![image](https://github.com/andrevflima/valcann/assets/51246610/921426df-f204-4009-a7fa-23fde2bafb6a)
 
-### `npm run build` fails to minify
+![image](https://github.com/andrevflima/valcann/assets/51246610/ecc43706-bcb6-4ea9-bffb-ada351658b00)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/andrevflima/valcann/assets/51246610/cbe31f94-b63f-42a8-b339-24da89a9ac9d)
+
